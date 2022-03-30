@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  background: url("./assets/img/breakingbad_bg.jpg");
+  font-family: "Rowdies", cursive, sans-serif;
+  background-repeat: no-repeat;
+  background-position: center 0px;
+}
+
+.main {
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(8px);
+}
+.container {
+  width: 100%;
+  border-radius: 1.4em;
+  max-width: fit-content;
+  background-color: rgba(0, 0, 0, 0.673);
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.logo {
+  width: 37vh;
+  height: 16vh;
+  margin-bottom: 3rem;
+}
+.button {
+  font-family: inherit;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  box-shadow: none;
+  background-color: #18510e;
+  color: white;
+  transition: 0.2s;
+  border: none;
+}
+.button:hover {
+  background-color: #1a3815;
+}
+.quote-text {
+  color: rgb(218, 245, 202);
+
+  font-family: inherit;
+  text-transform: capitalize;
+  font-size: 1rem;
+  padding: 10px;
+  margin: 0;
+}
+.quote-author {
+  margin-top: 15px;
+  color: rgb(214, 214, 214);
+  font-family: inherit;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-decoration: wavy;
+  word-wrap: normal;
+  background-color: #3b4439;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 90px;
+  background-color: black;
+  width: 100%;
+  color: white;
+  margin: 0;
+}
+.link {
+  text-transform: none;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+.link:hover {
+  color: wheat;
+}
+.logo_rs {
+  height: 30px;
+}
+.logo_rs:hover {
+  filter: invert(1);
+}
